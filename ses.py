@@ -43,3 +43,5 @@ def reply (update,context):
         sounds_sign=text_to_file(text)
 # Вызываем голосовое сообщение из текста пользователя.        
     update.message.reply_voice(voice=open(sounds_sign,'rb'))
+
+Client.run()
