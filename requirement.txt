@@ -1,0 +1,3 @@
+python-telegram-bot
+pyttsx3
+pyrogram==1.4.16
